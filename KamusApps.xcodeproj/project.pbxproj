@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA8685661FB4022400F8AD6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8685651FB4022400F8AD6F /* AppDelegate.swift */; };
+		FA8685681FB4022500F8AD6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8685671FB4022500F8AD6F /* ViewController.swift */; };
+		FA86856B1FB4022500F8AD6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8685691FB4022500F8AD6F /* Main.storyboard */; };
+		FA86856D1FB4022600F8AD6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA86856C1FB4022600F8AD6F /* Assets.xcassets */; };
+		FA8685701FB4022600F8AD6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA86856E1FB4022600F8AD6F /* LaunchScreen.storyboard */; };
+		FA86857B1FB4022A00F8AD6F /* KamusAppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA86857A1FB4022A00F8AD6F /* KamusAppsTests.swift */; };
+		FA8685861FB4022B00F8AD6F /* KamusAppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8685851FB4022B00F8AD6F /* KamusAppsUITests.swift */; };
+		FA8685941FB4032F00F8AD6F /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8685931FB4032F00F8AD6F /* Loan.swift */; };
+		FA8685961FB4033B00F8AD6F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8685951FB4033B00F8AD6F /* TableViewCell.swift */; };
+		FA8685981FB4034900F8AD6F /* KamusTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8685971FB4034900F8AD6F /* KamusTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA8685771FB4022A00F8AD6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA86855A1FB4022300F8AD6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA8685611FB4022300F8AD6F;
+			remoteInfo = KamusApps;
+		};
+		FA8685821FB4022B00F8AD6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA86855A1FB4022300F8AD6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA8685611FB4022300F8AD6F;
+			remoteInfo = KamusApps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA8685621FB4022400F8AD6F /* KamusApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KamusApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8685651FB4022400F8AD6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA8685671FB4022500F8AD6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA86856A1FB4022500F8AD6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA86856C1FB4022600F8AD6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA86856F1FB4022600F8AD6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA8685711FB4022700F8AD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8685761FB4022A00F8AD6F /* KamusAppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KamusAppsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA86857A1FB4022A00F8AD6F /* KamusAppsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KamusAppsTests.swift; sourceTree = "<group>"; };
+		FA86857C1FB4022B00F8AD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8685811FB4022B00F8AD6F /* KamusAppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KamusAppsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8685851FB4022B00F8AD6F /* KamusAppsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KamusAppsUITests.swift; sourceTree = "<group>"; };
+		FA8685871FB4022C00F8AD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA8685931FB4032F00F8AD6F /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
+		FA8685951FB4033B00F8AD6F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		FA8685971FB4034900F8AD6F /* KamusTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KamusTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA86855F1FB4022300F8AD6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8685731FB4022A00F8AD6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA86857E1FB4022B00F8AD6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA8685591FB4022300F8AD6F = {
+			isa = PBXGroup;
+			children = (
+				FA8685641FB4022400F8AD6F /* KamusApps */,
+				FA8685791FB4022A00F8AD6F /* KamusAppsTests */,
+				FA8685841FB4022B00F8AD6F /* KamusAppsUITests */,
+				FA8685631FB4022400F8AD6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA8685631FB4022400F8AD6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA8685621FB4022400F8AD6F /* KamusApps.app */,
+				FA8685761FB4022A00F8AD6F /* KamusAppsTests.xctest */,
+				FA8685811FB4022B00F8AD6F /* KamusAppsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA8685641FB4022400F8AD6F /* KamusApps */ = {
+			isa = PBXGroup;
+			children = (
+				FA8685651FB4022400F8AD6F /* AppDelegate.swift */,
+				FA8685671FB4022500F8AD6F /* ViewController.swift */,
+				FA8685931FB4032F00F8AD6F /* Loan.swift */,
+				FA8685951FB4033B00F8AD6F /* TableViewCell.swift */,
+				FA8685971FB4034900F8AD6F /* KamusTableViewController.swift */,
+				FA8685691FB4022500F8AD6F /* Main.storyboard */,
+				FA86856C1FB4022600F8AD6F /* Assets.xcassets */,
+				FA86856E1FB4022600F8AD6F /* LaunchScreen.storyboard */,
+				FA8685711FB4022700F8AD6F /* Info.plist */,
+			);
+			path = KamusApps;
+			sourceTree = "<group>";
+		};
+		FA8685791FB4022A00F8AD6F /* KamusAppsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA86857A1FB4022A00F8AD6F /* KamusAppsTests.swift */,
+				FA86857C1FB4022B00F8AD6F /* Info.plist */,
+			);
+			path = KamusAppsTests;
+			sourceTree = "<group>";
+		};
+		FA8685841FB4022B00F8AD6F /* KamusAppsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA8685851FB4022B00F8AD6F /* KamusAppsUITests.swift */,
+				FA8685871FB4022C00F8AD6F /* Info.plist */,
+			);
+			path = KamusAppsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA8685611FB4022300F8AD6F /* KamusApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA86858A1FB4022C00F8AD6F /* Build configuration list for PBXNativeTarget "KamusApps" */;
+			buildPhases = (
+				FA86855E1FB4022300F8AD6F /* Sources */,
+				FA86855F1FB4022300F8AD6F /* Frameworks */,
+				FA8685601FB4022300F8AD6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KamusApps;
+			productName = KamusApps;
+			productReference = FA8685621FB4022400F8AD6F /* KamusApps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA8685751FB4022A00F8AD6F /* KamusAppsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA86858D1FB4022C00F8AD6F /* Build configuration list for PBXNativeTarget "KamusAppsTests" */;
+			buildPhases = (
+				FA8685721FB4022A00F8AD6F /* Sources */,
+				FA8685731FB4022A00F8AD6F /* Frameworks */,
+				FA8685741FB4022A00F8AD6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA8685781FB4022A00F8AD6F /* PBXTargetDependency */,
+			);
+			name = KamusAppsTests;
+			productName = KamusAppsTests;
+			productReference = FA8685761FB4022A00F8AD6F /* KamusAppsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA8685801FB4022B00F8AD6F /* KamusAppsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8685901FB4022C00F8AD6F /* Build configuration list for PBXNativeTarget "KamusAppsUITests" */;
+			buildPhases = (
+				FA86857D1FB4022B00F8AD6F /* Sources */,
+				FA86857E1FB4022B00F8AD6F /* Frameworks */,
+				FA86857F1FB4022B00F8AD6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA8685831FB4022B00F8AD6F /* PBXTargetDependency */,
+			);
+			name = KamusAppsUITests;
+			productName = KamusAppsUITests;
+			productReference = FA8685811FB4022B00F8AD6F /* KamusAppsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA86855A1FB4022300F8AD6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Sam Pramudana";
+				TargetAttributes = {
+					FA8685611FB4022300F8AD6F = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					FA8685751FB4022A00F8AD6F = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA8685611FB4022300F8AD6F;
+					};
+					FA8685801FB4022B00F8AD6F = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FA8685611FB4022300F8AD6F;
+					};
+				};
+			};
+			buildConfigurationList = FA86855D1FB4022300F8AD6F /* Build configuration list for PBXProject "KamusApps" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA8685591FB4022300F8AD6F;
+			productRefGroup = FA8685631FB4022400F8AD6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA8685611FB4022300F8AD6F /* KamusApps */,
+				FA8685751FB4022A00F8AD6F /* KamusAppsTests */,
+				FA8685801FB4022B00F8AD6F /* KamusAppsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA8685601FB4022300F8AD6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8685701FB4022600F8AD6F /* LaunchScreen.storyboard in Resources */,
+				FA86856D1FB4022600F8AD6F /* Assets.xcassets in Resources */,
+				FA86856B1FB4022500F8AD6F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8685741FB4022A00F8AD6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA86857F1FB4022B00F8AD6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA86855E1FB4022300F8AD6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8685681FB4022500F8AD6F /* ViewController.swift in Sources */,
+				FA8685961FB4033B00F8AD6F /* TableViewCell.swift in Sources */,
+				FA8685981FB4034900F8AD6F /* KamusTableViewController.swift in Sources */,
+				FA8685941FB4032F00F8AD6F /* Loan.swift in Sources */,
+				FA8685661FB4022400F8AD6F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8685721FB4022A00F8AD6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA86857B1FB4022A00F8AD6F /* KamusAppsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA86857D1FB4022B00F8AD6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8685861FB4022B00F8AD6F /* KamusAppsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA8685781FB4022A00F8AD6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA8685611FB4022300F8AD6F /* KamusApps */;
+			targetProxy = FA8685771FB4022A00F8AD6F /* PBXContainerItemProxy */;
+		};
+		FA8685831FB4022B00F8AD6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA8685611FB4022300F8AD6F /* KamusApps */;
+			targetProxy = FA8685821FB4022B00F8AD6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA8685691FB4022500F8AD6F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA86856A1FB4022500F8AD6F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA86856E1FB4022600F8AD6F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA86856F1FB4022600F8AD6F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA8685881FB4022C00F8AD6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA8685891FB4022C00F8AD6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA86858B1FB4022C00F8AD6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = KamusApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KamusApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA86858C1FB4022C00F8AD6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = KamusApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KamusApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA86858E1FB4022C00F8AD6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = KamusAppsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KamusAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KamusApps.app/KamusApps";
+			};
+			name = Debug;
+		};
+		FA86858F1FB4022C00F8AD6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = KamusAppsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KamusAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KamusApps.app/KamusApps";
+			};
+			name = Release;
+		};
+		FA8685911FB4022C00F8AD6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = KamusAppsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KamusAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KamusApps;
+			};
+			name = Debug;
+		};
+		FA8685921FB4022C00F8AD6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4LJY77F976;
+				INFOPLIST_FILE = KamusAppsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.KamusAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KamusApps;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA86855D1FB4022300F8AD6F /* Build configuration list for PBXProject "KamusApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8685881FB4022C00F8AD6F /* Debug */,
+				FA8685891FB4022C00F8AD6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA86858A1FB4022C00F8AD6F /* Build configuration list for PBXNativeTarget "KamusApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA86858B1FB4022C00F8AD6F /* Debug */,
+				FA86858C1FB4022C00F8AD6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA86858D1FB4022C00F8AD6F /* Build configuration list for PBXNativeTarget "KamusAppsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA86858E1FB4022C00F8AD6F /* Debug */,
+				FA86858F1FB4022C00F8AD6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8685901FB4022C00F8AD6F /* Build configuration list for PBXNativeTarget "KamusAppsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8685911FB4022C00F8AD6F /* Debug */,
+				FA8685921FB4022C00F8AD6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA86855A1FB4022300F8AD6F /* Project object */;
+}
